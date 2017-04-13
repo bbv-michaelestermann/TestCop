@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>     
-		<id>Resharper.TestCop.R9</id>     
+		<id>Resharper.TestCop</id>     
 		<version>0.0.0-internal</version>
-		<title>TestCop for ReSharper 2017.1</title>     
+		<title>TestCop for ReSharper 2017.1.1</title>     
 		<authors>Alcaeus</authors>     
 		<description>Easily switch between unit tests and code. Create missing associated files. Includes highlightings and test templates to keep test projects neat and tidy. Works with NUnit, MSTest, xUnit ...</description>
 		<releaseNotes>
-      1.10.4.0 R#2017.1 recompile
+      1.10.4.0 R#2017.1.1 recompile
       1.10.3.3 R#2016.3 recompile
       1.10.3.2-EAP R#2016.3 recompile
       1.10.3.1 R#2016.2 recompile
@@ -63,6 +63,6 @@
 		<file src="Resharper.Testcop.dll" target="dotFiles" />
     <file src="Resharper.TestCop.pdb" target="dotFiles\" />
     <file src="..\..\..\ResharperTemplates\templates.DotSettings"
-          target="dotFiles\Extensions\Resharper.TestCop.R9\settings\" />
+          target="dotFiles\Extensions\Resharper.TestCop\settings\" />
   </files> 
 </package>
